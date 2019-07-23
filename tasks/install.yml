@@ -1,0 +1,10 @@
+- name: Install ISC-DHCPD
+  package: 
+    state: present
+    name: isc-dhcp-server
+
+- name: DHCPD service
+  service: 
+    name: isc-dhcp-server
+    state: started
+    enabled: true 
