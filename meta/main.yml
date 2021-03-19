@@ -1,0 +1,9 @@
+---
+galaxy_info:
+  role_name: ansible_isc_dhcpd
+  author: Noah Bailey
+  description: Install and config DHCPD server
+  license: GPLv3
+  min_ansible_version: 2.9
+  galaxy_tags: []
+dependencies: []
